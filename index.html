@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burger King Franchise</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Butterfly+Kids&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Laila:wght@300;400;500;600;700&family=Loved+by+the+King&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Prociono&family=Rubik+Wet+Paint&family=Sixtyfour+Convergence&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Boiler..</h1>
+    <section class="container">
+        <h1>👑 BURGER KING 👑</h1>
+        <section class="static">
+            <div class="options">
+                <div class="opt">
+                    <label for="burger">Burger</label>
+                    <input type="checkbox" name="burger" id="burger">
+                </div>
+                <div class="opt">
+                    <label for="fries">Fries</label>
+                    <input type="checkbox" name="fries" id="fries">
+                </div>
+                <div class="opt">
+                    <label for="drink">Drink</label>
+                    <input type="checkbox" name="drink" id="drink">
+                </div>
+            </div>
+            <button type="button" id="order">Order</button>
+        </section>
+        <div class="order-id">Order Id -: </div>
+        <div class="image"></div>
+    </section>
+    
+    <script src="./script.js"></script>
 </body>
 </html>
